@@ -1,0 +1,38 @@
+// === topbar === //
+.topbar {
+    @include layoutFlex(space-between, center);   
+    & a {
+        color: #ffffff;
+    }
+}
+// === topbar brand === //
+.topbar__brand {
+    & > h2 {
+        font-size: 19px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+}
+//=== topbar nav === //
+.topbar__nav {
+    & ol {
+        display: flex;
+    }
+    & ol li {
+        margin: 0 5px;
+    }
+    & ol li:last-child {
+        margin-right: 0;
+    }
+    & ol a {
+        display: block;
+        padding: 11px;    
+        font-size: 14px;        
+        border-radius: 5px;
+        transition: all .4s;
+        &:hover {
+            background-color: rgba(231, 223, 223, 0.5);
+            transition: all .4s;
+        }
+    }
+}

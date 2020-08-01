@@ -1,0 +1,23 @@
+.wrapper {
+    position: relative;
+}
+header {
+    position: relative;
+}
+.body__content {
+    position: relative;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    
+    width: 300px;
+    background: linear-gradient(to bottom,#378C3F 0%, #000 80%);
+    z-index: 999;
+}
+footer {
+    position: relative;
+    padding-top: 50px;
+}   

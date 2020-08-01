@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../dist/style.css" />
+</head>
+
+<body>
+    <!-- === wrapper === -->
+    <div class="wrapper">
+        <!-- === header === -->
+        <header>
+            <section class="section__topbar">
+                <div class="container">
+                    <div class="topbar">
+                        <div class="topbar__brand">
+                            <h2><a href="#">THIS IS CV</a></h2>
+                        </div>
+                        <nav class="topbar__nav">
+                            <ol>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#skills">SKILLS</a></li>
+                                <li><a href="#portfolio">PORTFOLIO</a></li>
+                                <li><a href="#experience">EXPERIENCE</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </ol>
+                            <div class="mobile__bars bars">
+                                <div class="bars__cross"></div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+            <section class="section__banner" id="home">
+                <div class="section__banner--img">
+                    <img src="../src/assets/images/cc-bg-1.jpg" />
+                </div>
+                <div class="section__banner--info">
+                    <div class="info__home">
+                        <div>
+                            <img src="../src/assets/images/avatar.jpg" />
+                        </div>
+                        <h1>TRẦN VĂN TÂM</h1>
+                        <h3>WEB DEVELOPER FRONTEND</h3>
+                        <div>
+                            <button><a href="javascript:void(0)">Hire Me</a></button>
+                            <button><a href="javascript:void(0)">Hire Me</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__banner--social">
+                    <ul class="social__list">
+                        <li class="social__item"><a href="javascript:void(0)" class="social__link"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li class="social__item"><a href="javascript:void(0)" class="social__link"><i
+                                    class="fa fa-twitter"></i></a></li>
+                        <li class="social__item"><a href="javascript:void(0)" class="social__link"><i
+                                    class="fa fa-google-plus"></i></a>
+                        </li>
+                        <li class="social__item"><a href="javascript:void(0)" class="social__link"><i
+                                    class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </header>
+        <!-- === body content === -->
+        <div class="body__content">
+            <section class="section__about" id="about">
+                <div class="container">
+                    <div class="about">
+                        <div class="about__content">
+                            <h1 class="title">About</h1>
+                            <div class="description">
+                                <p>Hello! I am Văn Tâm, Web Developer.</p>
+                                <p> CV is a HTML resume template for professionals. Now UI
+                                    FontAwesome, this modern and responsive design template
+                                    is perfect to showcase your portfolio, skills and experience.</p>                                                                        
+                            </div>
+                        </div>
+                        <div class="about__info">
+                            <h1 class="title">Basic Information</h1>
+                            <div class="info__details">
+                                <table>
+                                    <tr>
+                                        <th>AGE</th>
+                                        <td id="age"></td>
+                                    </tr>
+                                    <tr>
+                                        <th>EMAIL</th>
+                                        <td id="email"></td>
+                                    </tr>
+                                    <tr>
+                                        <th>PHONE</th>
+                                        <td id="phone"></td>
+                                    </tr>
+                                    <tr>
+                                        <th>ADDRESS</th>
+                                        <td id="address"></td>
+                                    </tr>
+                                    <tr>
+                                        <th>LANGUAGE</th>
+                                        <td id="language"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section__generate section__skills" id="skills">
+                <div class="container">
+                    <h1 class="section__title">Professional Skills</h1>
+                    <div class="skills">
+                        <div class="skills__list">
+                            <div class="skills__item">
+                                <div class="skills__name">HTML</div>
+                                <div class="skills__process"></div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__name">CSS</div>
+                                <div class="skills__process"></div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__name">JAVASCRIPT</div>
+                                <div class="skills__process"></div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__name">BOOTSTRAP</div>
+                                <div class="skills__process"></div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__name">WEBPACK</div>
+                                <div class="skills__process"></div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__name">SASS</div>
+                                <div class="skills__process"></div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__name">ANGULAR</div>
+                                <div class="skills__process"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section__generate section__portfolio" id="portfolio">
+                <div class="container">
+                    <h1 class="section__title">Portfolio</h1>
+                    <div class="portfolio__list">
+                        <div class="portfolio__link" data-target="port-web"><i class="fa fa-desktop"></i></div>
+                        <div class="portfolio__link" data-target="port-design"><i class="fa fa-picture-o"></i></div>
+                        <div class="portfolio__link" data-target="port-camera"><i class="fa fa-camera"></i></div>
+                    </div>
+                    <div class="portfolio__target" id="port-web">
+                        <div class="portfolio__row">
+                            <div class="portfolio__col">
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/project-1.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/project-2.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__col">
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/project-3.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/project-4.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__target" id="port-design">
+                        <div class="portfolio__row">
+                            <div class="portfolio__col">
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/graphic-design-1.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/graphic-design-2.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__col">
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/graphic-design-3.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/graphic-design-4.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio__target" id="port-camera">
+                        <div class="portfolio__row">
+                            <div class="portfolio__col">
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/photography-1.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/photography-3.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__col">
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/photography-2.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="portfolio__item">
+                                    <a href="javascript:void(0)">
+                                        <img src="./assets/images/photography-4.jpg" alt="" />
+                                        <div class="portfolio__item--screen">
+                                            <div>
+                                                <h2>Recent Project</h2>
+                                                <h4>WEB DEVELOPMENT</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section__generate section__experience" id="experience">
+                <div class="container">
+                    <h1 class="section__title">Work Experience</h1>
+                    <div class="experience">
+                        <div class="experience__list">
+                            <div class="experience__item">
+                                <div class="experience__time">
+                                    <div>
+                                        <h4>JULY 2019 - NOVEMBER 2019</h4>
+                                        <h3>FRONTEND</h3>
+                                    </div>
+                                </div>
+                                <div class="experience__info">
+                                    <h2>Intern</h2>
+                                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna
+                                        quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc
+                                        inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed
+                                        mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae,
+                                        curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
+                                        molestie ultricies sollicitudin dui</p>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section__generate section__contact" id="contact">
+                <div class="container">
+                    <h1 class="section__title">Contact Me</h1>
+                    <div class="contact">
+                        <div class="contact__item">
+                            <div class="contact__form">
+                                <h4>Free to contact me</h4>
+                                <form action="#">
+                                    <div>
+                                        <input type="text" placeholder="Name" />
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div>
+                                        <input type="text" placeholder="Subject" />
+                                        <i class="fa fa-file"></i>
+                                    </div>
+                                    <div>
+                                        <input type="text" placeholder="E-mail" />
+                                        <i class="fa fa-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <textarea rows="3" placeholder="Your Message"></textarea>
+                                    </div>
+                                    <div>
+                                        <button type="submit">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="contact__me">
+                                <div>
+                                    <h4>Address</h4>
+                                    <div>45 Tân Trụ, F15, Q.Tân Bình</div>
+                                </div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <div>0916104500</div>
+                                </div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <div>tvantam1475369@gmail.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- === siderbar === -->
+        <div class="sidebar sidebar__menu">
+            <ol>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ol>
+        </div>
+        <!-- === footer === -->
+        <footer id="footer">
+            <div class="footer__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.8444934196095!2d106.63035171430731!3d10.823210061289126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175298fca15be31%3A0x299738aa5c12a75a!2zNDUgVMOibiBUcuG7pSwgUGjGsOG7nW5nIDE1LCBUw6JuIELDrG5oLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmggNzAwMDAsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1595937627144!5m2!1svi!2s"
+                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="footer__social">
+                <div>
+                    <div>
+                        <span><i class="fa fa-facebook"></i></span>
+                        <span><i class="fa fa-twitter"></i></span>
+                        <span><i class="fa fa-google-plus"></i></span>
+                        <span><i class="fa fa-instagram"></i></span>
+                    </div>
+                    <h3>TRẦN VĂN TÂM</h3>
+                    <div>© This is CV. All rights reserved.</div>
+                    <div>Design - <span>TemplateFlip</span></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../dist/bundle.js"></script>
+</body>
+
+</html>

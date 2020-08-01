@@ -1,0 +1,34 @@
+// === footer === //
+
+// === section contact === //
+.footer__map {   
+    overflow: hidden; 
+    iframe {
+        width: 100%;
+        height: 90vh;
+    }
+}
+
+// === section social === //
+.footer__social {
+    @include layoutFlex(center, initial);
+    padding: 30px 0;
+}
+.footer__social > div > * {
+    text-align: center;
+}
+.footer__social > div > *:not(h3) {
+    color: #808080;
+}
+.footer__social > div > div:first-child span {
+    margin: 0 15px;
+}
+.footer__social > div > div:first-child i{
+    font-size: 24px;
+}
+.footer__social > div > h3 {
+    margin: 40px 0 15px 0;
+}
+.footer__social > div > div:last-child span {
+    border-bottom: 1px dotted #000000;
+}

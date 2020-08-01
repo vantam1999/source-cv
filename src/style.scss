@@ -1,0 +1,22 @@
+@import './scss/var';
+@import './scss/base';
+@import './scss/layout';
+// === header === //
+@import './scss/header';
+@import './scss/topbar';
+@import './scss/banner';
+@import './scss/sidebarMenu';
+// === body content === //
+@import './scss/body';
+@import './scss/about';
+@import './scss/skills';
+@import './scss/portfolio';
+@import './scss/experience';
+@import './scss/contact';
+// === footer === //
+@import './scss/footer';
+// === generate == //
+@import './scss/sectionGenerate';
+@import './scss/animation';
+// === responsive === //
+@import './scss/responsive';

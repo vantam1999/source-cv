@@ -1,0 +1,21 @@
+// > 1024px
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1260px;
+    }
+}
+@media (max-width: 1399px) {
+    .container {
+        max-width: 1240px;
+    }
+}
+@media (max-width: 1367px) {
+    .container {
+        max-width: 1150px;
+    }
+}
+@media (max-width: 1250px) {
+    .container {
+        max-width: 1024px;
+    }
+}

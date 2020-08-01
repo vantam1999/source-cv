@@ -1,0 +1,44 @@
+// === about === //
+.about {
+    @include layoutFlex(center, initial);
+    flex-wrap: wrap;
+    padding: 20px;
+   
+    box-sizing: border-box;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.2);
+
+    overflow: hidden;
+}
+.about > div {
+    box-sizing: border-box;
+    padding-right: 30px;   
+}
+.about .title {    
+    margin-bottom: 20px;
+}
+// === about content === //
+.about__content {
+    width: 57%;   
+}
+.about__content .description {   
+    width: 90%;
+    & > p {
+        color: $colorLightBlack;
+    } 
+    & > p:first-child {
+        margin-bottom: 20px;
+    }
+}
+// === about info === //
+.about__info {
+    width: 43%;       
+}   
+.about__info table {
+    & tr {
+        height: 30px;
+    }
+    & th {
+        width: 125px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,110 @@
+// <= 1024 && > 425px
+@media (max-width: 1024px) {
+    .container {
+        max-width: 950px;
+    }
+    // === about === //
+    .about {
+        justify-content: flex-start;
+        & > div {
+            padding-right: 0;
+        }
+        &__content {
+            width: 100%;
+            margin-bottom: 60px;
+        }
+        &__info {
+            width: 100%;
+        }
+    }    
+    // === footer === //
+    .footer__map iframe {
+        height: 80vh;
+    }
+}
+@media (max-width: 970px) {
+    .container {
+        max-width: 830px;
+    }
+}
+@media (max-width: 850px) {
+    .container {
+        max-width: 750px;
+    }
+    // === experience === //    
+    .experience__info{       
+        & h2 {
+            margin-bottom: 10px;
+        }
+        & p {
+            height: 80px;
+            overflow-y: auto;
+        }
+    }
+}
+@media (max-width: 780px) {
+    .container {
+        max-width: 690px;
+    }
+    // === section topbar === //
+    .topbar .topbar__nav > ol {
+        display: none;
+    }
+    .mobile__bars {
+        display: block;
+    }
+    // === contact === //
+    .contact__form form input {
+        max-width: 250px;
+    }
+    .contact__form form textarea {
+        max-width: 250px;
+    }
+}
+@media (max-width: 690px) {
+    .container {
+        // padding-left: 30px;
+        // padding-right: 30px;
+    }
+}
+@media (max-width: 500px) {   
+    // experience //
+    .experience__item {
+        flex-wrap: wrap;        
+    }
+    .experience__time {
+        width: 100%;    
+        height: 150px;
+    }
+    .experience__info {
+        width: 100%;
+        & p {
+            height: 120px;
+            overflow-y: auto;
+        }
+    }
+    // === contact === //
+    .contact {
+        &__item {
+            flex-wrap: wrap;
+            & > div {
+                width: 100%;
+            }
+            & > .contact__form {
+                & form {
+                    & input,
+                    & textarea {
+                        max-width: 100%;
+                    }
+                }
+            }
+            & > .contact__me {
+
+            }
+        }        
+    }
+    // === footer === //
+    .footer__map iframe {
+        height: 70vh;
+    }
+}

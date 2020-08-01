@@ -1,0 +1,85 @@
+// === contact === //
+.contact {
+    padding: 30px 20px 30px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 10px 6px rgba(0,0,0,0.3);
+
+    transform: translateY(100px);
+    transition: .5s;
+}
+.contact__item {
+    @include layoutFlex(center, initial);
+}
+.contact__item > div {
+    width: 50%;
+}
+.contact__form {
+    & form > div {
+        position: relative;
+        margin: 20px 0;
+    }
+    & form > div > i {
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        transform: translateY(-50%);
+
+        font-size: 17px;
+        color: #575555;        
+    }
+    & form input {
+        box-sizing: border-box;
+        padding: 12px 20px 12px 60px;     
+        max-width: 400px;   
+        width: 100%;
+
+        border: 1px solid #dcdada;
+        border-radius: 20px;
+        outline: none;                
+    }
+    & form input:focus {
+        border: 1px solid $colorGreen;
+    }   
+    & form textarea {
+        box-sizing: border-box;
+        padding: 20px;
+
+        max-width: 400px;   
+        width: 100%;
+        
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #dcdada;
+
+        font-size: 16px;  
+        resize: none;      
+    }
+    & form textarea:focus {
+        border-bottom: 1px solid $colorGreen;
+    }
+    & form button {
+        padding: 12px 22px;
+
+        color: #ffffff;
+        background-color: $colorGreen;
+        
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}
+.contact__me {
+    & > div {
+        margin: 20px 0;
+    }
+    & > div:first-child {
+        margin-top: 0;
+    }
+}
+
+// === active contact === //
+.contact__translate {
+    transform: translateY(0);
+    transition: .5s;
+}
